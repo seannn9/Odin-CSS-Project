@@ -2,8 +2,16 @@ body {
     background-color: #1F2937;
 }
 
-.header {
+.header, .header_link {
     font-family: "Roboto";
+}
+
+.header {
     font: 24px;
     color: #F9FAF8;
+}
+
+.header_link {
+    font: 50px;
+    color: #E5E7EB;
 }
