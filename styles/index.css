@@ -1,17 +1,25 @@
 body {
     background-color: #1F2937;
-}
-
-.header, .header_link {
-    font-family: "Roboto";
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header {
-    font: 24px;
-    color: #F9FAF8;
+    font-family: "Roboto";
+    display: flex;
+    margin:10px
 }
 
-.header_link {
-    font: 50px;
-    color: #E5E7EB;
+.main_header {
+    font: 24px;
+    color: #F9FAF8;
+    border:2px solid;
+    align-self: flex-start;
 }
+
+.links{
+    font: 18px;
+    color: #E5E7EB;
+    border:2px solid;
+}
+
