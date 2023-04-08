@@ -1,25 +1,34 @@
 body {
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     background-color: #1F2937;
     display: flex;
-    justify-content: flex-end;
 }
 
 .header {
+    border: 0px solid white;
+    width: 100vh;
+    height: 100vh;
     font-family: "Roboto";
     display: flex;
-    margin:10px
+    justify-content: space-between;
+    
 }
 
-.main_header {
-    font: 24px;
+.mainheader {
+    font-size: 24px;
     color: #F9FAF8;
-    border:2px solid;
-    align-self: flex-start;
 }
 
 .links{
-    font: 18px;
+    font-size: 18px; 
     color: #E5E7EB;
-    border:2px solid;
+    align-items: right;
+}
+
+.links.link_one {
+    align-self: center;
 }
 
